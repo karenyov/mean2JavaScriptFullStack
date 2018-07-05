@@ -1,0 +1,26 @@
+
+[{
+	name: 'Angular',
+	category: 'Front-End',
+	price: 120
+},
+{
+	name: 'Express',
+	category: 'Back-End',
+	price: 150
+},
+{
+	name: 'MongoDB',
+	category: 'DataBase',
+	price: 180
+},
+{
+	name: 'Jasmine',
+	category: 'Tests',
+	price: 115
+},
+{
+	name: 'Phaser',
+	category: 'Games',
+	price: 140
+}]
