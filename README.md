@@ -49,3 +49,17 @@ Para iniciar basta ir na pasta de instalação e executar o mongodb e mongo.
 - Buscando por "menor igual (<=)": `db.cursos.find({price: {$lte: 180} })`.
 - Buscando por "maior igual (>=)": `db.cursos.find({price: {$gte: 180} })`.
 - Buscando por "diferente de (!)": `db.cursos.find({price: {$ne: 180} })`.
+
+## Express
+> Os comandos foram executador via terminal
+- Consultar comandos do express: `express -h`
+- Criar projeto express: `express nome_projeto`
+- Instalar as dependências(dentro da pasta do projeto criado): `npm install`
+- Subir projeto express: `npm start`
+> Acessar no navegador: http://localhost:3000/
+
+- Subir projeto express(nodemon): `nodemon -exec 'npm start'`
+> dessa forma não será necessário iniciar o servidor toda vez que fizer alguma alteração.
+
+
+
