@@ -58,7 +58,7 @@ Para iniciar basta ir na pasta de instalação e executar o mongodb e mongo.
 - Subir projeto express: `npm start`
 > Acessar no navegador: http://localhost:3000/
 
-- Subir projeto express(nodemon): `nodemon -exec 'npm start'`
+- Subir projeto express(nodemon): `nodemon -exec 'npm start'`.
 > dessa forma não será necessário iniciar o servidor toda vez que fizer alguma alteração.
 
 
