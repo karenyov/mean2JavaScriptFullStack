@@ -61,5 +61,9 @@ Para iniciar basta ir na pasta de instalação e executar o mongodb e mongo.
 - Subir projeto express(nodemon): `nodemon -exec 'npm start'`.
 > dessa forma não será necessário iniciar o servidor toda vez que fizer alguma alteração.
 
-
+## Angular
+> Os comandos foram executador via terminal
+- Criar projeto: `ng new nome-app`
+- Subindo projeto: `ng serve`.
+- Para se criar componentes, pipes, módulos etc, basta executar a seguinte estrutura: `ng generate tipo nome`
 
