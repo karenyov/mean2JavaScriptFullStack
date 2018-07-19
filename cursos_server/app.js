@@ -7,11 +7,11 @@ var cursos = require('./routes/cursos');
 
 var app = express();
 
-app.use('/cursos', cursos);
-
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
+
+app.use('/cursos', cursos);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
